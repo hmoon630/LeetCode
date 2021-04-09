@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/longest-palindromic-substring/
 
+# Time out
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         for length in range(len(s), 0, -1):
