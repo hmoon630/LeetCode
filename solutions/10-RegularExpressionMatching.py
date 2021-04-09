@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/regular-expression-matching
 
-import re 
+import re
+
 
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
@@ -9,6 +10,7 @@ class Solution:
             return result.group() == s
         else:
             return False
+
 
 s = "aa"
 p = "a"

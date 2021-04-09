@@ -14,9 +14,10 @@ class Solution:
                     dic = {c: 1}
                 else:
                     dic[c] = 1
-            
+
             maximum = maximum if len(dic.keys()) < maximum else len(dic.keys())
-        
+
         return maximum
 
-print(Solution().lengthOfLongestSubstring('b' * 5000))
+
+print(Solution().lengthOfLongestSubstring("b" * 5000))
